@@ -1,0 +1,13 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background: skyblue;
+}
+.header{
+    margin: 0 auto;
+    background: grey;
+}
+.footer{
+    text-align: center;
+    background: grey;
+}
