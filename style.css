@@ -4,8 +4,9 @@
     background: skyblue;
 }
 .header{
+    overflow: hidden;
     margin: 0 auto;
-    background: grey;
+    background-color: grey;
 }
 .footer{
     text-align: center;
