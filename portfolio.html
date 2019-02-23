@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <!--This page doesn't have much text on it-->
-    <header><h1>Izzy Hall</h1></header>
-    <nav>
-        <a href="index.html">About</a> 
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <div class="box">
-        <figure class="box box_Inkling">Splatoon Art</figure>
-        <figure class="box box_Comic">Comic Art</figure>
-        <figure class="box box_BC">Self Portraits</figure>
-        <figure class="box box_VR">Characters</figure>
-        <figure class="box box_Digimon">Digimon Art</figure>
+    <div class="container2">
+        <!--Title should be my name-->
+        <header class="header">
+            <!--in the picture there's a directory. I know we did this in an earlier assignment
+        I guess these should be links!
+        google css 3 columns that are not equal percentages-->
+            <nav>
+                <h1 id="headerID">Izzy Hall</h1>
+                <div id="navID">
+                    <a href="index.html">About</a> |
+                    <a href="portfolio.html">Portfolio</a> |
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </header>
     </div>
-    <div class="images">
-        <img src="assets/images/portfolio_inkling.png" alt="Inkling">
-        <img src="assets/images/portfolio_comic.png" alt="Comic">
-        <img src="assets/images/portfolio_bootcamp.png" alt="Boot Camp">
-        <img src="assets/images/portfolio_VR.png" alt="VR Witch">
-        <img src="assets/images/portfolio_digimon.png" alt="Horseradishmon">
+    <div class="container">
+        <div id="aboutme">Portfolio</div>
+        <div class="box">
+            <figure class="box box_Inkling">Splatoon Art</figure>
+            <figure class="box box_Comic">Comic Art</figure>
+            <figure class="box box_BC">Self Portraits</figure>
+            <figure class="box box_VR">Characters</figure>
+            <figure class="box box_Digimon">Digimon Art</figure>
+        </div>
+        <div class="images">
+            <img src="assets/images/portfolio_inkling.png" alt="Inkling">
+            <img src="assets/images/portfolio_comic.png" alt="Comic">
+            <img src="assets/images/portfolio_bootcamp.png" alt="Boot Camp">
+            <img src="assets/images/portfolio_VR.png" alt="VR Witch">
+            <img src="assets/images/portfolio_digimon.png" alt="Horseradishmon">
+        </div>
     </div>
-    <footer>Copywrite ©</footer>
+    <footer class="footer">Copywrite ©</footer>
 </body>
+
 </html>

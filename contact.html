@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <!--This page should start out just like the previous one so I am going to copy it over-->
-    <header><h1>Izzy Hall</h1></header>
-    <nav>
-        <a href="index.html">About</a> 
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container2">
+        <!--Title should be my name-->
+        <header class="header">
+            <!--in the picture there's a directory. I know we did this in an earlier assignment
+        I guess these should be links!
+        google css 3 columns that are not equal percentages-->
+            <nav>
+                <h1 id="headerID">Izzy Hall</h1>
+                <div id="navID">
+                    <a href="index.html">About</a> |
+                    <a href="portfolio.html">Portfolio</a> |
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+    </div>
     <!--As a contact page, the form should be the emphasis. There are three forms: Name, 
         Email and Message
         Id uses # and class uses .-->
-    <form class="long">
-        Name <br>
-        <input type="text">
-    </form>
-    <form class="long">
-        Email <br>
-        <input type="email">
-    </form>
-    <form id="message"> 
-        Message <br>
-        <input type="text">
-    </form>
-    <form>
-        <input type="submit" value="Submit">
-    </form>
-    <footer>Copywrite ©</footer>
+    <div class="container">
+        <div id="aboutme">Contact</div>
+        <form class="long">
+            Name <br>
+            <input type="text">
+        </form>
+        <form class="long">
+            Email <br>
+            <input type="email">
+        </form>
+        <form id="message">
+            Message <br>
+            <input type="text">
+        </form>
+        <form>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer class="footer">Copywrite ©</footer>
 </body>
+
 </html>
