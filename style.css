@@ -8,6 +8,9 @@
     margin: 0 auto;
     background-color: grey;
 }
+#headerID{
+    display: inline;
+}
 .footer{
     text-align: center;
     background: grey;
